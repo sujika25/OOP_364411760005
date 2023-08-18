@@ -8,7 +8,7 @@ class Student:
     self.major = major
     self.gpa = gpa
 
- #display  object attribute
+ #display Pobject attribute
  def sudent_info(self):
     print(f'name:{self.name} major:{self.major} gpa:{self.gpa}')
 
@@ -38,7 +38,7 @@ s2.sudent_info()
 
 # list
 
-std_list = [] #std_list =  [s1,s2]
+std_list = [] #std_list = [s1,s2]
 std_list.append(s1)
 std_list.append(s2)
 # display number of object in list

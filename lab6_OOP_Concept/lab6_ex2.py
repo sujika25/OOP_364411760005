@@ -4,13 +4,13 @@ class Student:
     self.major = ""
     self.gpa = 0
 
-    # display  object attribute
+    # display Pobject attribute
  def sudent_info(self):
     print(f'name:{self.name} major:{self.major} gpa:{self.gpa}')
 
 
 s1 = Student() #empty object
-#assing data  to object attribute
+#assing data Pto object attribute
 s1.name = "Film"
 s1.major = "MIT"
 s1.gpa = 3.0
